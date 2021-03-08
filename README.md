@@ -5,4 +5,4 @@
 สร้างเว็บไซต์จองห้องพักโรงแรม 
 - เชื่อมกับฐานข้อมูล PostgreSQL
 - Django python
-- Frond-end : HTML / Javascript / CSS
+- HTML / Javascript / CSS
