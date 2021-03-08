@@ -1,0 +1,53 @@
+{% extends "blogapp/base.html" %}
+
+{% block title %} <title>PDF Table </title>{% endblock %}
+{% block content %} 
+
+<div class= "container" style = "text-align: center;">
+    <h1>Invoice Table</h1>
+    {%for i in data1 %}
+    <h3>Total your cost is {{i.sum}} Bath</h3>
+    {% endfor %}
+    <div>
+        
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">No.</th>
+                <th scope="col">User ID</th>
+                <th scope="col">Name</th>
+                <th scope="col">Surname</th>
+                <th scope="col">Room Booked</th>
+                <th scope="col">Price</th>
+                <th scope="col">Check In</th>
+                <th scope="col">Check Out</th>
+                <th scope="col">Period of days</th>
+                <th scope="col">Amount</th>
+
+              </tr>
+            </thead>
+            <tbody>
+            {%for t in data %}
+              <tr>
+                <th scope="row">{{forloop.counter}}</th>
+                <td>{{t.user_id}}</td>
+                <td>{{t.name}}</td>
+                <td>{{t.surname}}</td>
+                <td>{{t.room_booked}}</td>
+                <td>{{t.price}}</td>
+                <td>{{t.check_in}}</td>
+                <td>{{t.check_out}}</td>
+                <td>{{t.period_of_days}}</td>
+                <td>{{t.amount}}</td>
+              </tr>
+            {% endfor %}
+            
+            </tbody>
+          </table>
+          
+    </div>
+    <div>
+        <a class="btn btn-success" href ="{% url 'export-csv' %}">Download CSV</a> 
+    </div>
+</div>
+{% endblock %}

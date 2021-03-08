@@ -1,0 +1,133 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+
+    
+    {% block title %} {% endblock %}
+  
+</head>
+<body>
+     <!-- Page Preloder -->
+     <div id="preloder">
+      <div class="loader"></div>
+  </div>
+
+  <!-- Offcanvas Menu Begin -->
+  <div class="offcanvas-menu-overlay"></div>
+  <div class="offcanvas-menu-wrapper">
+      <div class="offcanvas__logo">
+          <a href="{% url 'index' %}"><img src="static/blogapp/img/logo.png" alt=""></a>
+      </div>
+      <div id="mobile-menu-wrap"></div>
+      <div class="offcanvas__btn__widget">
+          <a href="{% url 'RoomListView' %}">Book Now <span class="arrow_right"></span></a>
+      </div>
+      <div class="offcanvas__widget">
+          <ul>
+              <li><span class="icon_pin_alt"></span>  126 Pracha Uthit Road, Bangmod, Bangkok, TH</li>
+              <li><span class="icon_phone"></span> (+66) 12-345-6789</li>
+          </ul>
+      </div>
+      <div class="offcanvas__auth">
+          <ul>
+              <li><a href="#">Login</a></li>
+              <li><a href="#">Signup</a></li>
+              <li><a href="#">Logout</a></li>
+          </ul>
+      </div>
+  </div>
+  <!-- Offcanvas Menu End -->
+
+  <!-- Header Section Begin -->
+  <header class="header">
+      <div class="header__top">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-7">
+                      <ul class="header__top__widget">
+                          <li><span class="icon_pin_alt"></span>  126 Pracha Uthit Rode, Bangmod, Banngkok, TH</li>
+                          <li><span class="icon_phone"></span> (+66) 12-345-6789</li>
+                      </ul>
+                  </div>
+                  <div class="col-lg-5">
+                      <div class="header__top__right">
+                          <div class="header__top__auth">
+                              <ul>
+                                  <li><a href="{% url 'login' %}">Login</a></li>
+                                  <li><a href="{% url 'signup' %}">Signup</a></li>
+                                  <li><a href="{% url 'index' %}">Logout</a></li>
+                              </ul>
+                          </div>
+                                                      
+                            
+                             
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="header__nav__option">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-2">
+                      <div class="header__logo">
+                          <a href="./index.html"><img src="static/blogapp/img/logo.png" alt=""></a>
+                      </div>
+                  </div>
+                  <div class="col-lg-10">
+                      <div class="header__nav">
+                          <nav class="header__menu">
+                              <ul class="menu__class">
+                                  <li class="active"><a href="{% url 'index' %}">Home</a></li>
+                                  <li class="active"><a href="{% url 'rooms' %}">Rooms</a></li>
+                                  <li class="active"><a href="{% url 'about' %}">About Us</a></li>
+                                  <li class="active"><a href="{% url 'contact' %}">Contact</a></li>
+                              </ul>
+                          </nav>
+                          <div class="header__nav__widget">
+                              <a href="{% url 'RoomListView' %}">Book Now <span class="arrow_right"></span></a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="canvas__open">
+                  <span class="fa fa-bars"></span>
+              </div>
+          </div>
+      </div> 
+  </header>
+  <!-- Header Section End -->
+  
+   
+      {% block content %} {% endblock %}
+
+</body>
+
+                
+      
+</footer>  
+
+    <link rel="stylesheet" href="static/blogapp/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="static/blogapp/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="static/blogapp/css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="static/blogapp/css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="static/blogapp/css/jquery-ui.min.css" type="text/css">
+    <link rel="stylesheet" href="static/blogapp/css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="static/blogapp/css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="static/blogapp/css/style.css" type="text/css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <script src="static/blogapp/js/jquery-3.3.1.min.js"></script>
+    <script src="static/blogapp/js/bootstrap.min.js"></script>
+    <script src="static/blogapp/js/jquery.nice-select.min.js"></script>
+    <script src="static/blogapp/js/jquery-ui.min.js"></script>
+    <script src="static/blogapp/js/jquery.slicknav.js"></script>
+    <script src="static/blogapp/js/owl.carousel.min.js"></script>
+    <script src="static/blogapp/js/main.js"></script>
+ 
+</html>

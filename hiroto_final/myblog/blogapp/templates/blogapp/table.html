@@ -1,0 +1,37 @@
+{% extends "blogapp/base.html" %}
+
+{% block title %} <title>Post Table </title>{% endblock %}
+{% block content %} 
+
+<div class= "container" style = "text-align: center;">
+    <h1>Post Table</h1>
+    <div>
+        
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">No.</th>
+                <th scope="col">Title</th>
+                <th scope="col">Date Created</th>
+                <th scope="col">Date Updated</th>
+              </tr>
+            </thead>
+            <tbody>
+            {%for t in table_obj %}
+              <tr>
+                <th scope="row">{{forloop.counter}}</th>
+                <td>{{t.title}}</td>
+                <td>{{t.date_create}}</td>
+                <td>{{t.date_update}}</td>
+              </tr>
+            {% endfor %}
+            
+            </tbody>
+          </table>
+          
+    </div>
+    <div>
+        <a class="btn btn-success" href ="{% url 'export-csv' %}">Download CSV</a> 
+    </div>
+</div>
+{% endblock %}

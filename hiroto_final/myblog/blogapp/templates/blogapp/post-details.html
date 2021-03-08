@@ -1,0 +1,39 @@
+{% extends "blogapp/base.html" %}
+
+{% block title %} <title> {{single_post.title}} </title>{% endblock %}
+{% block content %} 
+
+<div class= "container" style = "text-align: center;">
+    <div style = "text-align: center;">
+        <h1> Hello , Post-detail page</h1>
+        <p>{{today}}</p>
+    </div><br>
+
+    {% if single_post %}
+    <div>
+        
+        <img src="{{single_post.featured_pic.url}}" alt = "{{single_post.title}}" width = "500px" height = "300px">
+        <h1>Title : {{post.title}}</h1>
+        <p> Date Created : {{single_post.date_create}}</p>
+        <p>Date Updated : {{single_post.date_update}}</p>
+        <p>{{single_post.post | safe}}</p>
+    <div>
+       
+    </div><br><br>
+    {% endif %}
+    
+</div>
+
+>
+
+<div>
+    {% for post in posts %}
+    <ul>
+        <li style = "font-weight : bolder;">Title : {{post.title}} </li>
+        <li>ID : {{post.id}}</li>
+        <li>Post : {{post.post}}</li>
+        <li>Date Created : {{post.date_create}}</li>
+    </ul>
+    {% endfor %}
+</div>
+{% endblock %}

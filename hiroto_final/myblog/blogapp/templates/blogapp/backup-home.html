@@ -1,0 +1,39 @@
+{% extends "blogapp/base.html" %}
+
+{% block title %} <title> Home </title>{% endblock %}
+{% block content %} 
+
+<div class= "container" style = "text-align: center;">
+    <div style = "text-align: center;">
+        <h1> Hello , home page</h1>
+        <p>{{today}}</p>
+    </div><br>
+
+    {% for post in posts %}
+    <div>
+        
+        <img src="{{post.featured_pic.url}}" alt = "{{post.title}}" width = "500px" height = "300px">
+        <h1>Title : {{post.title}}</h1>
+        <p> Date Created : {{post.date_create}}</p>
+    <div>
+    <div>
+        <a class="btn btn-primary" href="/post-details/{{post.id}}" type = "button">See more</a>
+    </div>   
+    </div><br><br>
+    {% endfor %}
+    
+</div>
+
+>
+
+<div>
+    {% for post in posts %}
+    <ul>
+        <li style = "font-weight : bolder;">Title : {{post.title}} </li>
+        <li>ID : {{post.id}}</li>
+        <li>Post : {{post.post}}</li>
+        <li>Date Created : {{post.date_create}}</li>
+    </ul>
+    {% endfor %}
+</div>
+{% endblock %}
