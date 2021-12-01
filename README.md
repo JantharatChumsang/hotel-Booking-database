@@ -1,6 +1,10 @@
 #  Hotel-Booking-database
 
 โปรเจคนี้เป็นสวนหนึ่งในรายวิชา CPE231 Database Systems 1/2020 
+Contributors :
+- [@JantharatChumsang](https://github.com/JantharatChumsang)
+- [@octsy](https://github.com/octsy)
+
 
 สร้างเว็บไซต์จองห้องพักโรงแรม 
 - เชื่อมกับฐานข้อมูล PostgreSQL
