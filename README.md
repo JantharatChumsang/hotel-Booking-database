@@ -1,7 +1,8 @@
 #  Hotel-Booking-database
 
 โปรเจคนี้เป็นสวนหนึ่งในรายวิชา CPE231 Database Systems 1/2020 
-Contributors :
+
+## Contributors :
 - [@JantharatChumsang](https://github.com/JantharatChumsang)
 - [@octsy](https://github.com/octsy)
 
