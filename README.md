@@ -13,19 +13,21 @@
 - HTML / Javascript / CSS
 
 ## ER diagrams and schema
-[![Iu4gwa.jpg](https://sv1.picz.in.th/images/2023/06/18/Iu4gwa.jpg)](https://www.picz.in.th/image/1687061405861.Iu4gwa)
-[![Iu4iDq.jpg](https://sv1.picz.in.th/images/2023/06/18/Iu4iDq.jpg)](https://www.picz.in.th/image/1687061462278.Iu4iDq)
+![1687061405861](https://github.com/JantharatChumsang/hotel-Booking-database/assets/91057226/892fc1a3-47db-4ab2-94cc-f423b7d5e724)
+![1687064807035](https://github.com/JantharatChumsang/hotel-Booking-database/assets/91057226/8be7ab82-98d6-4282-a5bd-669b215dbeb8)
+![1687064917043](https://github.com/JantharatChumsang/hotel-Booking-database/assets/91057226/9ad6402a-8f76-479f-bdda-a3b44f2737a6)
 
 ## Template hotel booking database 
-![6x1BY9.jpg](https://sv1.picz.in.th/images/2021/12/01/6x1BY9.jpg)
+![1687065002618](https://github.com/JantharatChumsang/hotel-Booking-database/assets/91057226/419d6c90-14cb-423e-8e04-7aa9b9465312)
 
 ## Login - Signup – Logout
-![6xKKmg.jpg](https://sv1.picz.in.th/images/2021/12/01/6xKKmg.jpg)
-![6xKgb2.jpg](https://sv1.picz.in.th/images/2021/12/01/6xKgb2.jpg)
+![1687065106036](https://github.com/JantharatChumsang/hotel-Booking-database/assets/91057226/78b087a8-98d4-4d44-a572-4b8e399bbeb8)
+![1687065155778](https://github.com/JantharatChumsang/hotel-Booking-database/assets/91057226/590e02d3-9279-482d-a067-0c60c200d189)
 
 ## Booking-Cancle room
-![6xKbma.jpg](https://sv1.picz.in.th/images/2021/12/01/6xKbma.jpg)
-![6xKl9q.jpg](https://sv1.picz.in.th/images/2021/12/01/6xKl9q.jpg)
+![1687065330688](https://github.com/JantharatChumsang/hotel-Booking-database/assets/91057226/d2ac6e14-e466-45f4-8e3b-6d16a56e0f41)
+
+![1687065746174](https://github.com/JantharatChumsang/hotel-Booking-database/assets/91057226/ba637f77-eff0-4d0c-9f81-cfc2f31e5783)
 
 ## Payment
-![6xKojz.jpg](https://sv1.picz.in.th/images/2021/12/01/6xKojz.jpg)
+![1687065407614](https://github.com/JantharatChumsang/hotel-Booking-database/assets/91057226/fde6dd98-b0ab-4db5-9e1c-4444fb0b4152)
