@@ -13,8 +13,8 @@
 - HTML / Javascript / CSS
 
 ## ER diagrams and schema
-![Iu4gwa.jpg](https://sv1.picz.in.th/images/2023/06/18/Iu4gwa.jpg)
-![Iu4iDq.jpg](https://sv1.picz.in.th/images/2023/06/18/Iu4iDq.jpg)
+[![Iu4gwa.jpg](https://sv1.picz.in.th/images/2023/06/18/Iu4gwa.jpg)](https://www.picz.in.th/image/1687061405861.Iu4gwa)
+[![Iu4iDq.jpg](https://sv1.picz.in.th/images/2023/06/18/Iu4iDq.jpg)](https://www.picz.in.th/image/1687061462278.Iu4iDq)
 
 ## Template hotel booking database 
 ![6x1BY9.jpg](https://sv1.picz.in.th/images/2021/12/01/6x1BY9.jpg)
